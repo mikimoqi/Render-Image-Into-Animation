@@ -1,1 +1,1 @@
-# The appearance is in the results 
+# Ouput is located in code->results folder
