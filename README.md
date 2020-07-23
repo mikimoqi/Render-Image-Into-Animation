@@ -1,2 +1,1 @@
-# Custom-DFS-Coloring.gif
-
+# The appearance is in the results 
