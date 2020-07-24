@@ -16,9 +16,8 @@ animation filler::vorDotDFS(PNG& img, double density,
 
 animation filler::vorSolidDFS(PNG& img, double density, int frameFreq)
 {
-    /**
-     * @todo Your code here! 
-     */
+   
+	
   solidColorPicker a;
   return vor<Stack>(img, density, a, frameFreq);
 
@@ -26,9 +25,8 @@ animation filler::vorSolidDFS(PNG& img, double density, int frameFreq)
 
 animation filler::vorFadeDFS(PNG& img, double density, double fadeFactor, int frameFreq)
 {
-    /**
-     * @todo Your code here! 
-     */
+   
+	
   fadeColorPicker a(fadeFactor);
   return vor<Stack>(img, density, a, frameFreq);
 
@@ -36,9 +34,8 @@ animation filler::vorFadeDFS(PNG& img, double density, double fadeFactor, int fr
 
 animation filler::vorCUSTDFS(PNG& img, double density, double fadeFactor, int frameFreq)
 {
-    /**
-     * @todo Your code here! 
-     */
+   
+	
   fadeColorPicker c(fadeFactor);
   return vor<Stack>(img, density, c, frameFreq);
 
@@ -46,9 +43,8 @@ animation filler::vorCUSTDFS(PNG& img, double density, double fadeFactor, int fr
 
 animation filler::vorCUSTBFS(PNG& img, double density, double fadeFactor, int frameFreq)
 {
-    /**
-     * @todo Your code here! 
-     */
+  
+	
   customcolorpicker v(fadeFactor);
   return vor<Queue>(img, density, v, frameFreq);
 
@@ -65,18 +61,16 @@ animation filler::vorDotBFS(PNG& img, double density,
 
 animation filler::vorSolidBFS(PNG& img, double density, int frameFreq)
 {
-    /**
-     * @todo Your code here! 
-     */
+    
+	
   solidColorPicker a;
   return vor<Queue>(img, density, a, frameFreq);
 }
 
 animation filler::vorFadeBFS(PNG& img, double density, double fadeFactor, int frameFreq)
 {
-    /**
-     * @todo Your code here! 
-     */
+    
+	
   fadeColorPicker a(fadeFactor);
   return vor<Queue>(img, density, a, frameFreq);
 }
