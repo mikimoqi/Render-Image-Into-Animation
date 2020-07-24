@@ -13,8 +13,7 @@ Deque<T>::Deque() {
     n2 = -1;
 }
 
-//n1 = //your code here
-//n2 = //your code here
+
 
 
 /**
@@ -106,9 +105,7 @@ T Deque<T>::popR()
     n2 = data.size()-1;
     //}
   return *output; 
-    /**
-     * @todo Your code here! 
-     */
+ 
 
 }
 
@@ -122,9 +119,7 @@ template <class T>
 T Deque<T>::peekL()
 {
     return data[n1];
-    /**
-     * @todo Your code here! 
-     */
+  
 }
 
 
@@ -140,7 +135,7 @@ T Deque<T>::peekR()
 {   
     return data[n2]; 
     /**
-     * @todo Your code here! 
+     
      */
 }
 
@@ -156,7 +151,7 @@ bool Deque<T>::isEmpty() const
 {
   return n2 < n1;
     /**
-     * @todo Your code here! 
+    
      */
 }
 
