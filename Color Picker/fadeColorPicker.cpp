@@ -3,13 +3,13 @@
 
 fadeColorPicker::fadeColorPicker(double fade)
 {
-    /* your code here */
+    
   fadeFactor = fade;
 }
 
 HSLAPixel fadeColorPicker::operator()(point p)
 {
-    /* your code here */
+    
   HSLAPixel np;
   np.h = p.c.color.h;
   np.s = p.c.color.s;
